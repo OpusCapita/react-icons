@@ -1,0 +1,88 @@
+@import '../../styles/colors';
+@import '../../styles/variables';
+
+$oc-menu-item-border-width: 3px;
+$oc-menu-font-color: $oc-sidemenu-color-text;
+
+.oc-menu {
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: block;
+    text-decoration: none;
+  }
+}
+
+.oc-menu-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem;
+  outline: none;
+  color: $oc-menu-font-color;
+  cursor: pointer;
+  font-size: 1.5rem;
+
+  border-radius: 0;
+  border-top: 0;
+  border-bottom: 0;
+  border-left: $oc-menu-item-border-width transparent;
+  border-right: $oc-menu-item-border-width transparent;
+  border-style: solid;
+
+  white-space: nowrap;
+
+  &:hover, &:focus, &.active {
+      background: lighten($oc-color-background-menu, 20%);
+      outline: 0;
+      text-decoration: none;
+      color: $oc-sidemenu-color-text;
+  }
+
+  .rotate90 {
+    transform: rotate(90deg);
+  }
+
+  .rotate90-back {
+    transform: rotate(-90deg);
+  }
+}
+
+.oc-menu-item-prefix {
+  margin-right: 0.5rem;
+}
+
+.oc-menu-item-uppercase {
+  text-transform: uppercase;
+}
+
+.oc-menu-item-active {
+    border-left-color: $oc-color-primary-orange;
+}
+
+.oc-menu-sub-item {
+  font-size: 0.9em;
+  background: lighten($oc-color-background-menu, 10%);
+}
+
+.oc-menu-sub-item-content {
+  flex: 1 1 auto;
+  outline: none;
+}
+
+.oc-menu-sub-item-extra {
+  flex-grow: 0;
+  height: 20px;
+  margin-left: 1rem;
+  outline: none;
+
+  .oc-menu-caret {
+    fill: $oc-color-white;
+  }
+
+  svg { outline: none;}
+}

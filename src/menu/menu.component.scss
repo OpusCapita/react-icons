@@ -1,0 +1,10 @@
+@import '../../styles/colors';
+
+.oc-menu {
+  background-color: $oc-color-background-menu;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  user-select: none;
+  -webkit-overflow-scrolling: touch;
+}
