@@ -5,15 +5,12 @@
 @import '../styles/bootstrap_v3_without_icons';
 
 @import "../styles/mixins",
-        "../styles/fonts",
         "../styles/icons",
         "../styles/buttons",
         "../styles/inputs";
 
 @import './flex';
 @import '../styles/bootstrap_v3_overrides';
-@import '../styles/_react_select_custom';
-@import '../node_modules/react-select/scss/components.scss';
 @import '../styles/_app';
 
 .oc-margin-bottom {
