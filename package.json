@@ -16,6 +16,10 @@
     "version": "npm run build && git add -A lib",
     "postversion": "git push && git push --tags"
   },
+  "peerDependencies": {
+    "prop-types": "^15.5.10",
+    "react": ">=0.15.4"
+  },
   "devDependencies": {
     "autoprefixer": "^6.6.1",
     "babel": "6.23.0",
@@ -54,8 +58,11 @@
     "precss": "^1.4.0",
     "progress-bar-webpack-plugin": "^1.9.3",
     "prop-types": "^15.5.10",
-    "react": "15.4.2",
-    "react-dom": "15.4.2",
+    "react": ">=0.15.4",
+    "react-addons-perf": "^15.4.2",
+    "react-addons-test-utils": "^15.4.2",
+    "react-bootstrap": "^0.30.7",
+    "react-dom": ">=0.15.4",
     "react-hot-loader": "^3.0.0-beta.6",
     "react-intl": "^2.1.5",
     "react-intl-redux": "^0.2.0",
@@ -72,6 +79,7 @@
     "webpack": "2.3.2",
     "webpack-dev-server": "2.4.2",
     "webpack-merge": "^4.1.0",
+    "webpack-node-externals": "^1.5.4",
     "write-file-webpack-plugin": "^3.4.2"
   },
   "repository": {
