@@ -16,9 +16,12 @@ N/A
 
 ### API
 
-####
+#### Icon
 
-N/A
+| Prop name                | Type             | Default                                  | Description                              |
+| ------------------------ | ---------------- | ---------------------------------------- | ---------------------------------------- |
+| type                     | string           | required                                 | Icon type / category                     |
+| name                     | string           | required                                 | Icon name                                |
 
 ### Code example
 
