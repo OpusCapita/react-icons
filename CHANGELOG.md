@@ -2,7 +2,11 @@
 
 * In general follow (https://docs.npmjs.com/getting-started/semantic-versioning) versioning.
 
-## <next>
+## 1.1.8
+
+* Remove title element from icons
+
+## 1.1.7
 
 * Move app styles to examples folder
 
