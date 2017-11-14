@@ -6,7 +6,7 @@
 ### Installation
 
 ```
-npm install --save @opuscapita/react-icons
+npm install @opuscapita/react-icons
 ```
 
 ### Development
