@@ -70,29 +70,29 @@ function IconsView() {
   return (
     <div className="oc-content">
       <div id="icons-container">
-        {indicators.map(indicator =>
-          <div className="icon-container">
+        {indicators.map(indicator => (
+          <div key={indicator} className="icon-container">
             <Icon type="indicator" name={indicator} />
             <span>indicator: {indicator}</span>
-          </div>,
+          </div>),
         )}
-        {products.map(product =>
-          <div className="icon-container">
+        {products.map(product => (
+          <div key={product} className="icon-container">
             <Icon type="product" name={product} />
             <span>product: {product}</span>
-          </div>,
+          </div>),
         )}
-        {invoices.map(invoice =>
-          <div className="icon-container">
+        {invoices.map(invoice => (
+          <div key={invoice} className="icon-container">
             <Icon type="invoices" name={invoice} />
             <span>invoice: {invoice}</span>
-          </div>,
+          </div>),
         )}
-        {logos.map(logo =>
-          <div className="icon-container">
+        {logos.map(logo => (
+          <div key={logo} className="icon-container">
             <Icon type="logo" name={logo} />
             <span>logo: {logo}</span>
-          </div>,
+          </div>),
         )}
       </div>
     </div>

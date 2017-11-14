@@ -92,7 +92,7 @@ import ProductUsers from
 import ProductMatching from
   '../../images/products/Matching.svg';
 import ProductInspector from
-    '../../images/products/Inspector.svg';
+  '../../images/products/Inspector.svg';
 
 import InvoicesGeneric from
   '../../images/invoices/document/generic.svg';
@@ -178,7 +178,6 @@ const components = {
 };
 
 export default class Icon extends React.Component {
-
   constructor(props) {
     super(props);
     switch (props.type) {
