@@ -36,6 +36,7 @@ function IconsView() {
     'settings',
     'search',
     'pinned',
+    'draggingArrows',
   ];
   const products = [
     'Invoices',

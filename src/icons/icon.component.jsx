@@ -62,6 +62,8 @@ import IndicatorSearch from
   '../../images/indicators/Search.svg';
 import IndicatorPinned from
   '../../images/indicators/Pinned.svg';
+import IndicatorDraggingArrows from
+  '../../images/indicators/DraggingArrows.svg';
 
 import ProductInvoices from
   '../../images/products/Invoices.svg';
@@ -142,6 +144,7 @@ const components = {
     settings: React.createFactory(IndicatorSettings),
     search: React.createFactory(IndicatorSearch),
     pinned: React.createFactory(IndicatorPinned),
+    draggingArrows: React.createFactory(IndicatorDraggingArrows),
   },
   product: {
     Invoices: React.createFactory(ProductInvoices),
