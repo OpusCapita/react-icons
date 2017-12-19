@@ -2,6 +2,9 @@
 
 * In general follow (https://docs.npmjs.com/getting-started/semantic-versioning) versioning.
 
+## 1.2.1
+* Add and replace icons: `warning`, `error`,`critical` and `search`
+
 ## 1.2.0
 * Add `draggingArrows` icon to indicators
 

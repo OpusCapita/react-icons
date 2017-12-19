@@ -42,8 +42,12 @@ import IndicatorDelete from
   '../../images/indicators/Delete.svg';
 import IndicatorAlert from
   '../../images/indicators/Alert.svg';
+import IndicatorWarning from
+  '../../images/indicators/Warning.svg';
 import IndicatorError from
   '../../images/indicators/Error.svg';
+import IndicatorCritical from
+  '../../images/indicators/Critical.svg';
 import IndicatorExclamation from
   '../../images/indicators/Exclamation.svg';
 import IndicatorPlus from
@@ -60,6 +64,8 @@ import IndicatorSettings from
   '../../images/indicators/Settings.svg';
 import IndicatorSearch from
   '../../images/indicators/Search.svg';
+import IndicatorSearchWithCircle from
+  '../../images/indicators/SearchWithCircle.svg';
 import IndicatorPinned from
   '../../images/indicators/Pinned.svg';
 import IndicatorDraggingArrows from
@@ -134,7 +140,9 @@ const components = {
     close: React.createFactory(IndicatorClose),
     delete: React.createFactory(IndicatorDelete),
     alert: React.createFactory(IndicatorAlert),
+    warning: React.createFactory(IndicatorWarning),
     error: React.createFactory(IndicatorError),
+    critical: React.createFactory(IndicatorCritical),
     exclamation: React.createFactory(IndicatorExclamation),
     plus: React.createFactory(IndicatorPlus),
     minus: React.createFactory(IndicatorMinus),
@@ -143,8 +151,9 @@ const components = {
     more: React.createFactory(IndicatorMore),
     settings: React.createFactory(IndicatorSettings),
     search: React.createFactory(IndicatorSearch),
+    searchWithCircle: React.createFactory(IndicatorSearchWithCircle),
     pinned: React.createFactory(IndicatorPinned),
-    draggingArrows: React.createFactory(IndicatorDraggingArrows),
+    draggingArrows: React.createFactory(IndicatorDraggingArrows),  
   },
   product: {
     Invoices: React.createFactory(ProductInvoices),

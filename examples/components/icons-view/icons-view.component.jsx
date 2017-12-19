@@ -27,7 +27,9 @@ function IconsView() {
     'close',
     'delete',
     'alert',
+    'warning',
     'error',
+    'critical',
     'exclamation',
     'plus',
     'minus',
@@ -35,6 +37,7 @@ function IconsView() {
     'help',
     'settings',
     'search',
+    'searchWithCircle',
     'pinned',
     'draggingArrows',
   ];
