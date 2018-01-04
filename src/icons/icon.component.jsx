@@ -153,7 +153,7 @@ const components = {
     search: React.createFactory(IndicatorSearch),
     searchWithCircle: React.createFactory(IndicatorSearchWithCircle),
     pinned: React.createFactory(IndicatorPinned),
-    draggingArrows: React.createFactory(IndicatorDraggingArrows),  
+    draggingArrows: React.createFactory(IndicatorDraggingArrows),
   },
   product: {
     Invoices: React.createFactory(ProductInvoices),
