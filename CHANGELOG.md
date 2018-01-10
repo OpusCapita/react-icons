@@ -2,6 +2,9 @@
 
 * In general follow (https://docs.npmjs.com/getting-started/semantic-versioning) versioning.
 
+## 2.0.0
+* Upgrade to react 15.6 & babel-preset-env
+
 ## 1.2.1
 * Add and replace icons: `warning`, `error`,`critical` and `search`
 
