@@ -210,7 +210,7 @@ export default class Icon extends React.Component {
     const properties = {
       width: width || this.defaultWidth,
       height: height || this.defaultHeight,
-      focusable: false,
+      focusable: 'false',
       ...otherProps,
     };
     if (typeof IndicatorLogout === 'function') {
