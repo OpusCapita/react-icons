@@ -1,4 +1,5 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" 
-viewBox="0 0 30 30"><defs><style>.cls-1{fill:#d12515;}</style></defs><title>Error</title>
-<path class="oc-icon-indicator oc-icon-status-error" d="M26.25,10.34v9.32l-6.59,6.59H10.34L3.75,19.66V10.34l6.59-6.59h9.32ZM13.36,14.77a1.64,1.64,0,0,0,3.27,0V9.71a1.64,1.64,0,0,0-3.27,0ZM17,20.12a2,2,0,1,0-2,2A2,2,0,0,0,17,20.12Z"/>
-</svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+<title>Error</title>
+<path class="oc-icon-indicator oc-icon-status-error" d="M25.19,10.86v8.28L19.33,25H11.05L5.19,19.14V10.86L11.05,
+5h8.28ZM13.71,15.15a1.32,1.32,0,0,0,2.64,0V11.06a1.32,1.32,0,0,0-2.64,0Zm2.93,4.32a1.62,1.62,0,0,0-3.23,0,1.62,1.62,
+0,1,0,3.23,0Z"/></svg>
