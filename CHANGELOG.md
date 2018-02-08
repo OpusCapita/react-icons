@@ -2,6 +2,9 @@
 
 * In general follow (https://docs.npmjs.com/getting-started/semantic-versioning) versioning.
 
+## 2.0.2
+* Update size icons: `warning`, `error`,`critical` and `search`
+
 ## 2.0.1
 * Change focusable SVG prop from boolean to string type, fixes React 16 warning 
 
