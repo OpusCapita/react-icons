@@ -2,6 +2,9 @@
 
 * In general follow (https://docs.npmjs.com/getting-started/semantic-versioning) versioning.
 
+## 2.0.3
+* Update latest version to npm
+
 ## 2.0.2
 * Update size icons: `warning`, `error`,`critical` and `search`
 
