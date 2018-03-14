@@ -205,7 +205,13 @@ export default class Icon extends React.Component {
   }
 
   render() {
-    const { type, name, width, height, ...otherProps } = this.props;
+    const {
+      type,
+      name,
+      width,
+      height,
+      ...otherProps
+    } = this.props;
     const component = components[type] && components[type][name];
     const properties = {
       width: width || this.defaultWidth,
