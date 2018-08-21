@@ -2,6 +2,9 @@
 
 * In general follow (https://docs.npmjs.com/getting-started/semantic-versioning) versioning.
 
+## 3.0.0
+* Remove margins from indicator icons
+
 ## 2.0.3
 * Update latest version to npm
 
@@ -9,7 +12,7 @@
 * Update size icons: `warning`, `error`,`critical` and `search`
 
 ## 2.0.1
-* Change focusable SVG prop from boolean to string type, fixes React 16 warning 
+* Change focusable SVG prop from boolean to string type, fixes React 16 warning
 
 ## 2.0.0
 * Upgrade to react 15.6 & babel-preset-env
