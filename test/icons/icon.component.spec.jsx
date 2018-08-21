@@ -15,10 +15,10 @@ describe('Icon component', function describe() {
       <Icon type="indicator" name="more" />,
     );
     expect(wrapper.props()).to.eql({
-      height: 40,
+      height: null,
       type: 'indicator',
       name: 'more',
-      width: 40,
+      width: null,
     });
   });
 });
