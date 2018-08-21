@@ -195,8 +195,8 @@ export default class Icon extends React.Component {
         this.defaultHeight = 40;
         break;
       case 'indicator':
-        this.defaultWidth = 30;
-        this.defaultHeight = 30;
+        this.defaultWidth = 25;
+        this.defaultHeight = 25;
         break;
       default:
         this.defaultWidth = 40;
@@ -227,8 +227,8 @@ export default class Icon extends React.Component {
 }
 
 Icon.defaultProps = {
-  width: 40,
-  height: 40,
+  width: null,
+  height: null,
 };
 
 Icon.propTypes = {
