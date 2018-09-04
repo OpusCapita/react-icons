@@ -70,6 +70,8 @@ import IndicatorPinned from
   '../../images/indicators/Pinned.svg';
 import IndicatorDraggingArrows from
   '../../images/indicators/DraggingArrows.svg';
+import RemoveFilter from
+  '../../images/indicators/RemoveFilter.svg';
 
 import ProductInvoices from
   '../../images/products/Invoices.svg';
@@ -154,6 +156,7 @@ const components = {
     searchWithCircle: React.createFactory(IndicatorSearchWithCircle),
     pinned: React.createFactory(IndicatorPinned),
     draggingArrows: React.createFactory(IndicatorDraggingArrows),
+    removeFilter: React.createFactory(RemoveFilter),
   },
   product: {
     Invoices: React.createFactory(ProductInvoices),

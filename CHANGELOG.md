@@ -2,6 +2,9 @@
 
 * In general follow (https://docs.npmjs.com/getting-started/semantic-versioning) versioning.
 
+# 3.0.1
+* Add 'remove filter' icon
+
 ## 3.0.0
 * Remove margins from indicator icons
 

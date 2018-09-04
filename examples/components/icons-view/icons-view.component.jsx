@@ -40,6 +40,7 @@ function IconsView() {
     'searchWithCircle',
     'pinned',
     'draggingArrows',
+    'removeFilter',
   ];
   const products = [
     'Invoices',
