@@ -7,40 +7,67 @@ import './icons-view.component.scss';
 
 function IconsView() {
   const indicators = [
-    'burgerClose',
-    'remove',
+    'alert',
+    'arrowLeft',
+    'attachment',
+
     'burger',
-    'logout',
+    'burgerClose',
+
+    'calendar',
     'CaretRight',
     'CaretLeft',
-    'flagged',
+    'clock',
+    'close',
     'comment',
     'commented',
+    'critical',
+
+    'delete',
+    'draggingArrows',
+
     'email',
-    'attachment',
-    'inClarification',
-    'rejected',
-    'locked',
-    'ok',
+    'error',
+    'exclamation',
+    'export',
+
+    'filtering',
+    'flagged',
+    'folder',
+
+    'help',
+
     'inspected',
     'inspectedAndApproved',
-    'close',
-    'delete',
-    'alert',
-    'warning',
-    'error',
-    'critical',
-    'exclamation',
-    'plus',
+
+    'logout',
+
     'minus',
-    'arrowLeft',
-    'help',
-    'settings',
+    'more',
+
+    'ok',
+
+    'pinned',
+    'plus',
+    'presentation',
+    'print',
+
+    'rejected',
+    'remove',
+    'removeFilter',
+
+    'save',
     'search',
     'searchWithCircle',
-    'pinned',
-    'draggingArrows',
-    'removeFilter',
+    'settings',
+    'sortAsc',
+    'sortDesc',
+    'inClarification',
+    'locked',
+
+    'user',
+
+    'warning',
   ];
   const products = [
     'Invoices',
