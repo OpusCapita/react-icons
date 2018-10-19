@@ -26,6 +26,7 @@ function IconsView() {
     'delete',
     'draggingArrows',
 
+    'edit',
     'email',
     'error',
     'exclamation',
