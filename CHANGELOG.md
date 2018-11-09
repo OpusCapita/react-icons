@@ -2,6 +2,10 @@
 
 * In general follow (https://docs.npmjs.com/getting-started/semantic-versioning) versioning.
 
+# 3.0.4
+* Upgrade packages
+* Fix tests and linter errors
+
 # 3.0.3
 * Add oc-icon-indicator class to help, inClarification, and Pinned icons
 * Some icons in images/indicators were not included
