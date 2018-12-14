@@ -110,6 +110,8 @@ import IndicatorStatusUser from
 
 import IndicatorWarning from
   '../../images/indicators/Warning.svg';
+import IndicatorExceedsLimit from
+  '../../images/indicators/ExceedsLimit.svg';
 
 import ProductInvoices from
   '../../images/products/Invoices.svg';
@@ -222,6 +224,8 @@ const components = {
     user: React.createFactory(IndicatorStatusUser),
 
     warning: React.createFactory(IndicatorWarning),
+
+    exceedsLimit: React.createFactory(IndicatorExceedsLimit),
 
   },
   product: {

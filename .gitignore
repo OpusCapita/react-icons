@@ -28,3 +28,5 @@ node_modules
 
 # Examples page files
 examples-build
+
+.idea

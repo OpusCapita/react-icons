@@ -69,6 +69,8 @@ function IconsView() {
     'user',
 
     'warning',
+
+    'exceedsLimit',
   ];
   const products = [
     'Invoices',
