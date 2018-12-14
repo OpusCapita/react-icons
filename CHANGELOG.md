@@ -2,6 +2,9 @@
 
 * In general follow (https://docs.npmjs.com/getting-started/semantic-versioning) versioning.
 
+# 3.0.5
+* Add approval limit exceeds limit indicator
+
 # 3.0.4
 * Upgrade packages
 * Fix tests and linter errors
