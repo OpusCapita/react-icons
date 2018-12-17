@@ -3,162 +3,162 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import IndicatorAlert from
-  '../../images/indicators/Alert.svg';
+  './images/indicators/Alert.svg';
 import IndicatorArrowLeft from
-  '../../images/indicators/ArrowLeft.svg';
+  './images/indicators/ArrowLeft.svg';
 import IndicatorAttachment from
-  '../../images/indicators/Attachment.svg';
+  './images/indicators/Attachment.svg';
 
 import IndicatorBurger from
-  '../../images/indicators/Burger.svg';
+  './images/indicators/Burger.svg';
 import IndicatorBurgerClose from
-  '../../images/indicators/Burger-close.svg';
+  './images/indicators/Burger-close.svg';
 
 import IndicatorCalendar from
-  '../../images/indicators/Calendar.svg';
+  './images/indicators/Calendar.svg';
 import IndicatorCaretLeft from
-  '../../images/indicators/CaretLeft.svg';
+  './images/indicators/CaretLeft.svg';
 import IndicatorCaretRight from
-  '../../images/indicators/CaretRight.svg';
+  './images/indicators/CaretRight.svg';
 import IndicatorClock from
-  '../../images/indicators/Clock.svg';
+  './images/indicators/Clock.svg';
 import IndicatorClose from
-  '../../images/indicators/Close.svg';
+  './images/indicators/Close.svg';
 import IndicatorComment from
-  '../../images/indicators/Comment.svg';
+  './images/indicators/Comment.svg';
 import IndicatorCommented from
-  '../../images/indicators/Commented.svg';
+  './images/indicators/Commented.svg';
 import IndicatorCritical from
-  '../../images/indicators/Critical.svg';
+  './images/indicators/Critical.svg';
 
 import IndicatorDelete from
-  '../../images/indicators/Delete.svg';
+  './images/indicators/Delete.svg';
 import IndicatorDraggingArrows from
-  '../../images/indicators/DraggingArrows.svg';
+  './images/indicators/DraggingArrows.svg';
 
 import IndicatorEdit from
-  '../../images/indicators/Edit.svg';
+  './images/indicators/Edit.svg';
 import IndicatorEmail from
-  '../../images/indicators/Email.svg';
+  './images/indicators/Email.svg';
 import IndicatorError from
-  '../../images/indicators/Error.svg';
+  './images/indicators/Error.svg';
 import IndicatorExclamation from
-  '../../images/indicators/Exclamation.svg';
+  './images/indicators/Exclamation.svg';
 import IndicatorExport from
-  '../../images/indicators/Export.svg';
+  './images/indicators/Export.svg';
 
 import IndicatorFiltering from
-  '../../images/indicators/Filtering.svg';
+  './images/indicators/Filtering.svg';
 import IndicatorFlagged from
-  '../../images/indicators/Flagged.svg';
+  './images/indicators/Flagged.svg';
 import IndicatorFolder from
-  '../../images/indicators/Folder.svg';
+  './images/indicators/Folder.svg';
 
 import IndicatorHelp from
-  '../../images/indicators/Help.svg';
+  './images/indicators/Help.svg';
 
 import IndicatorInspected from
-  '../../images/indicators/Inspected.svg';
+  './images/indicators/Inspected.svg';
 import IndicatorInspectedAndApproved from
-  '../../images/indicators/InspectedAndApproved.svg';
+  './images/indicators/InspectedAndApproved.svg';
 
 import IndicatorLogout from
-  '../../images/indicators/Logout.svg';
+  './images/indicators/Logout.svg';
 
 import IndicatorMinus from
-  '../../images/indicators/Minus.svg';
+  './images/indicators/Minus.svg';
 import IndicatorMore from
-  '../../images/indicators/More.svg';
+  './images/indicators/More.svg';
 
 import IndicatorOk from
-  '../../images/indicators/Ok.svg';
+  './images/indicators/Ok.svg';
 
 import IndicatorPinned from
-  '../../images/indicators/Pinned.svg';
+  './images/indicators/Pinned.svg';
 import IndicatorPlus from
-  '../../images/indicators/Plus.svg';
+  './images/indicators/Plus.svg';
 import IndicatorPresentation from
-  '../../images/indicators/Presentation.svg';
+  './images/indicators/Presentation.svg';
 import IndicatorPrint from
-  '../../images/indicators/Print.svg';
+  './images/indicators/Print.svg';
 
 import IndicatorRejected from
-  '../../images/indicators/Rejected.svg';
+  './images/indicators/Rejected.svg';
 import IndicatorRemove from
-  '../../images/indicators/Remove.svg';
+  './images/indicators/Remove.svg';
 import RemoveFilter from
-  '../../images/indicators/RemoveFilter.svg';
+  './images/indicators/RemoveFilter.svg';
 
 import IndicatorSave from
-  '../../images/indicators/Save.svg';
+  './images/indicators/Save.svg';
 import IndicatorSearch from
-  '../../images/indicators/Search.svg';
+  './images/indicators/Search.svg';
 import IndicatorSearchWithCircle from
-  '../../images/indicators/SearchWithCircle.svg';
+  './images/indicators/SearchWithCircle.svg';
 import IndicatorSettings from
-  '../../images/indicators/Settings.svg';
+  './images/indicators/Settings.svg';
 import IndicatorSortAsc from
-  '../../images/indicators/SortAsc.svg';
+  './images/indicators/SortAsc.svg';
 import IndicatorSortDesc from
-  '../../images/indicators/SortDesc.svg';
+  './images/indicators/SortDesc.svg';
 import IndicatorInClarification from
-  '../../images/indicators/StatusInclarification.svg';
+  './images/indicators/StatusInclarification.svg';
 import IndicatorLocked from
-  '../../images/indicators/StatusLocked.svg';
+  './images/indicators/StatusLocked.svg';
 import IndicatorStatusUser from
-  '../../images/indicators/StatusUser.svg';
+  './images/indicators/StatusUser.svg';
 
 import IndicatorWarning from
-  '../../images/indicators/Warning.svg';
+  './images/indicators/Warning.svg';
 import IndicatorExceedsLimit from
-  '../../images/indicators/ExceedsLimit.svg';
+  './images/indicators/ExceedsLimit.svg';
 
 import ProductInvoices from
-  '../../images/products/Invoices.svg';
+  './images/products/Invoices.svg';
 import ProductUser from
-  '../../images/products/User.svg';
+  './images/products/User.svg';
 import ProductAccounts from
-  '../../images/products/Accounts.svg';
+  './images/products/Accounts.svg';
 import ProductArchive from
-  '../../images/products/Archive.svg';
+  './images/products/Archive.svg';
 import ProductDashboard from
-  '../../images/products/Dashboard.svg';
+  './images/products/Dashboard.svg';
 import ProductInfo from
-  '../../images/products/Info.svg';
+  './images/products/Info.svg';
 import ProductLiquidity from
-  '../../images/products/Liquidity.svg';
+  './images/products/Liquidity.svg';
 import ProductNetting from
-  '../../images/products/Netting.svg';
+  './images/products/Netting.svg';
 import ProductPayments from
-  '../../images/products/Payments.svg';
+  './images/products/Payments.svg';
 import ProductSettings from
-  '../../images/products/Settings.svg';
+  './images/products/Settings.svg';
 import ProductTools from
-  '../../images/products/Tools.svg';
+  './images/products/Tools.svg';
 import ProductUsers from
-  '../../images/products/Users.svg';
+  './images/products/Users.svg';
 import ProductMatching from
-  '../../images/products/Matching.svg';
+  './images/products/Matching.svg';
 import ProductInspector from
-  '../../images/products/Inspector.svg';
+  './images/products/Inspector.svg';
 
 import InvoicesGeneric from
-  '../../images/invoices/document/generic.svg';
+  './images/invoices/document/generic.svg';
 import InvoicesPdf from
-  '../../images/invoices/document/pdf.svg';
+  './images/invoices/document/pdf.svg';
 import InvoicesPng from
-  '../../images/invoices/document/png.svg';
+  './images/invoices/document/png.svg';
 import InvoicesPpt from
-  '../../images/invoices/document/ppt.svg';
+  './images/invoices/document/ppt.svg';
 import InvoicesWord from
-  '../../images/invoices/document/word.svg';
+  './images/invoices/document/word.svg';
 import InvoicesXls from
-  '../../images/invoices/document/xls.svg';
+  './images/invoices/document/xls.svg';
 
 import OCLong from
-  '../../images/logo/oc-logo.svg';
+  './images/logo/oc-logo.svg';
 import OCShort from
-  '../../images/logo/oc-logo-short.svg';
+  './images/logo/oc-logo-short.svg';
 
 const components = {
   indicator: {

@@ -2,6 +2,9 @@
 
 * In general follow (https://docs.npmjs.com/getting-started/semantic-versioning) versioning.
 
+# 4.0.1
+* Fix svg images with ES build
+
 # 4.0.0
 * Update to new component layout
 * Upgrade packages
