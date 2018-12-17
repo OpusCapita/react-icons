@@ -1,37 +1,43 @@
 # react-icons
-### [Demo](https://opuscapita.github.io/react-icons)
 
-### [API](./src/icons/README.md)
+### Description
+A collection of SVG icons, check out the Demo for the list of icons.
 
 ### Installation
-
 ```
 npm install @opuscapita/react-icons
 ```
 
-### Development
+### Demo
+View the [DEMO](https://opuscapita.github.io/react-icons)
 
-* Run `npm install` to get the project's dependencies
-* Run `npm run build` to produce minified version of the library
-* Run `npm run dev` to produce development version of the library.
-* Run `npm run test` to run tests
-* Run `npm run docs` to run generate examples
+### Builds
+#### UMD
+The default build with compiled styles in the .js file. Also minified version available in the lib/umd directory.
+#### CommonJS/ES Module
+You need to configure your module loader to use `cjs` or `es` fields of the package.json to use these module types.
+Also you need to configure sass loader, since all the styles are in sass format.
+* With webpack use [resolve.mainFields](https://webpack.js.org/configuration/resolve/#resolve-mainfields) to configure the module type.
+* Add [SASS loader](https://github.com/webpack-contrib/sass-loader) to support importing of SASS styles.
 
-#### Development workflow
-* Run `npm run docs`
-* Open `docs/index.html`
+### API
+| Prop name                | Type             | Default                                  | Description                              |
+| ------------------------ | ---------------- | ---------------------------------------- | ---------------------------------------- |
+| type                     | string           | required                                 | Icon type / category                     |
+| name                     | string           | required                                 | Icon name                                |
+| width                    | number           | 40                                       | Icon width                               |
+| height                   | number           | 40                                       | Icon height                              |
 
-  Or
+### Code example
+```jsx
+import React from 'react';
+import { Icon } from '@opuscapita/react-icons';
 
-* Run `npm run hot`
-* Open `http://localhost:5555/`
-
-#### Contributing
-* Make a new branch for the changes
-* Update `CHANGELOG.md` file
-* Commit changes (not `lib`)
-* Make a pull request
-
-#### Creating a new release
-* Run `npm version [major|minor|patch]` [Info](https://docs.npmjs.com/cli/version)
-* Run `npm publish`
+export default class IconsView extends React.Component {
+  render() {
+    return (
+      <Icon type="indicator" name="remove" />
+    );
+  }
+}
+```

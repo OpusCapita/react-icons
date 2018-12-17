@@ -2,6 +2,10 @@
 
 * In general follow (https://docs.npmjs.com/getting-started/semantic-versioning) versioning.
 
+# 4.0.0
+* Update to new component layout
+* Upgrade packages
+
 # 3.0.5
 * Add approval limit exceeds limit indicator
 
