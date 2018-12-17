@@ -2,6 +2,9 @@
 
 * In general follow (https://docs.npmjs.com/getting-started/semantic-versioning) versioning.
 
+# 4.0.3
+* Fix svg images with ES build
+
 # 4.0.2
 * Fix svg image to support react-svg-loader 1.1.1
 
