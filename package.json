@@ -1,7 +1,7 @@
 {
   "author": "OpusCapita (www.opuscapita.com)",
   "name": "@opuscapita/react-icons",
-  "version": "3.0.5",
+  "version": "4.0.0",
   "private": false,
   "description": "OpusCapita icons",
   "main": "lib/umd/react-icons.js",
