@@ -10,7 +10,7 @@ export default () => (
       <Col xs={12}>
         <Row>
           <Col xs={10} md={11}>
-            <h3>React Grid</h3>
+            <h3>Opuscapita - React icons</h3>
           </Col>
           <Col xs={2} md={1}>
             <a
