@@ -27,3 +27,4 @@
 
 ### Publish new version to NPM
 * Run `npm publish`
+* You must be logged in to npm to do this: `npm login`
