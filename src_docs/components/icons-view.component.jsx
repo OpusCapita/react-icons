@@ -100,26 +100,44 @@ function IconsView() {
   ];
   return (
     <div className="oc-content">
-      <div id="icons-container">
+      <div className="icons-container">
+        <h3>indicator</h3>
+      </div>
+      <div className="icons-container">
         {indicators.map(indicator => (
           <div key={indicator} className="icon-container">
             <Icon type="indicator" name={indicator} />
-            <span>indicator: {indicator}</span>
+            <span>{indicator}</span>
           </div>))}
+      </div>
+      <div className="icons-container">
+        <h3>product</h3>
+      </div>
+      <div className="icons-container">
         {products.map(product => (
           <div key={product} className="icon-container">
             <Icon type="product" name={product} />
-            <span>product: {product}</span>
+            <span>{product}</span>
           </div>))}
+      </div>
+      <div className="icons-container">
+        <h3>invoices</h3>
+      </div>
+      <div className="icons-container">
         {invoices.map(invoice => (
           <div key={invoice} className="icon-container">
             <Icon type="invoices" name={invoice} />
-            <span>invoice: {invoice}</span>
+            <span>{invoice}</span>
           </div>))}
+      </div>
+      <div className="icons-container">
+        <h3>logo</h3>
+      </div>
+      <div className="icons-container">
         {logos.map(logo => (
-          <div key={logo} className="icon-container">
+          <div key={logo} className="icon-container logo">
             <Icon type="logo" name={logo} />
-            <span>logo: {logo}</span>
+            <span>{logo}</span>
           </div>))}
       </div>
     </div>

@@ -263,14 +263,26 @@ export default class Icon extends React.Component {
   constructor(props) {
     super(props);
     switch (props.type) {
-      case 'product':
+      case 'product': {
         this.defaultWidth = 40;
         this.defaultHeight = 40;
         break;
-      case 'indicator':
+      }
+      case 'indicator': {
         this.defaultWidth = 25;
         this.defaultHeight = 25;
         break;
+      }
+      case 'logo': {
+        if (props.name === 'OCLong') {
+          this.defaultWidth = 150;
+          this.defaultHeight = 30;
+        } else {
+          this.defaultWidth = 50;
+          this.defaultHeight = 30;
+        }
+        break;
+      }
       default:
         this.defaultWidth = 40;
         this.defaultHeight = 40;

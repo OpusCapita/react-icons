@@ -2,6 +2,10 @@
 
 * In general follow (https://docs.npmjs.com/getting-started/semantic-versioning) versioning.
 
+# 4.0.4
+* Add proper default sizes to logos
+* Improve demo
+
 # 4.0.3
 * Fix svg images with ES build
 
