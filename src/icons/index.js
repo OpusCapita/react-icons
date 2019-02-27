@@ -1,1 +1,1 @@
-export Icon from './icon.component.jsx';
+export Icon from './icon.component';

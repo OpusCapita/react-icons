@@ -1,0 +1,26 @@
+@import '~@opuscapita/oc-cm-common-styles/styles/colors';
+
+.icons-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  h3 {
+    margin-left: 10px;
+  }
+
+  .icon-container {
+    margin: 10px;
+    min-width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    svg {
+      margin-bottom: 10px;
+    }
+    &.logo svg {
+      background-color: $oc-color-primary-orange;
+    }
+  }
+}
