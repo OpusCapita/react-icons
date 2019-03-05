@@ -1,0 +1,41 @@
+@import '../src_docs/app.component.scss';
+
+.oc-ui-content {
+  min-height: 0;
+}
+
+.oc-sg-content {
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.oc-sg-icons-container {
+  display: flex;
+  flex-flow: row wrap;
+  height: auto;
+}
+
+.oc-sg-icon-container {
+  border: 0.1em dashed lightgrey;
+  padding: 1em;
+  width: 15%;
+  height: 15%;
+  min-width: 15%;
+  flex-grow: 1;
+}
+
+.oc-sg-icon-header-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.oc-sg-icon-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logos {
+  background-color: lightgray;
+}
