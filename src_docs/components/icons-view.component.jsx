@@ -40,6 +40,7 @@ function IconsView() {
 
     'logout',
 
+    'matched',
     'minus',
     'more',
 
@@ -63,6 +64,7 @@ function IconsView() {
     'inClarification',
     'locked',
 
+    'unmatched',
     'user',
 
     'warning',
