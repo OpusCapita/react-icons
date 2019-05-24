@@ -65,6 +65,8 @@ import IndicatorInspectedAndApproved from
 import IndicatorLogout from
   './images/indicators/Logout.svg';
 
+import IndicatorMatched from
+  './images/indicators/Matched.svg';
 import IndicatorMinus from
   './images/indicators/Minus.svg';
 import IndicatorMore from
@@ -107,6 +109,9 @@ import IndicatorLocked from
   './images/indicators/StatusLocked.svg';
 import IndicatorStatusUser from
   './images/indicators/StatusUser.svg';
+
+import IndicatorUnmatched from
+  './images/indicators/Unmatched.svg';
 
 import IndicatorWarning from
   './images/indicators/Warning.svg';
@@ -198,6 +203,7 @@ const components = {
 
     logout: React.createFactory(IndicatorLogout),
 
+    matched: React.createFactory(IndicatorMatched),
     minus: React.createFactory(IndicatorMinus),
     more: React.createFactory(IndicatorMore),
 
@@ -221,6 +227,7 @@ const components = {
     inClarification: React.createFactory(IndicatorInClarification),
     locked: React.createFactory(IndicatorLocked),
 
+    unmatched: React.createFactory(IndicatorUnmatched),
     user: React.createFactory(IndicatorStatusUser),
 
     warning: React.createFactory(IndicatorWarning),
