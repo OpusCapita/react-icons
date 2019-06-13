@@ -70,6 +70,10 @@ function IconsView() {
     'warning',
 
     'exceedsLimit',
+
+    'confirmedSub',
+    'partiallySub',
+    'errorSub',
   ];
   const products = [
     'Invoices',

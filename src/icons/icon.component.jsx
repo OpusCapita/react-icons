@@ -113,6 +113,13 @@ import IndicatorStatusUser from
 import IndicatorUnmatched from
   './images/indicators/Unmatched.svg';
 
+import IndicatorConfirmedSub from
+  './images/indicators/ConfirmedSub.svg';
+import IndicatorPartiallySub from
+  './images/indicators/PartiallySub.svg';
+import IndicatorErrorSub from
+  './images/indicators/ErrorSub.svg';
+
 import IndicatorWarning from
   './images/indicators/Warning.svg';
 import IndicatorExceedsLimit from
@@ -234,6 +241,9 @@ const components = {
 
     exceedsLimit: React.createFactory(IndicatorExceedsLimit),
 
+    confirmedSub: React.createFactory(IndicatorConfirmedSub),
+    partiallySub: React.createFactory(IndicatorPartiallySub),
+    errorSub: React.createFactory(IndicatorErrorSub),
   },
   product: {
     Invoices: React.createFactory(ProductInvoices),
