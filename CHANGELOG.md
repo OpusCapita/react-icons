@@ -2,12 +2,18 @@
 
 * In general follow (https://docs.npmjs.com/getting-started/semantic-versioning) versioning.
 
-# 4.0.7
+# 4.0.9
 * Add info indicator icon
+  
+# 4.0.8
+* Refined icons for Confirment, Partial and Error subitem statuses 
+
+# 4.0.7
+* Added icons for Confirment, Partial and Error subitem statuses
 
 # 4.0.6
 * Update Critical icon
-  
+
 # 4.0.5
 * Add matched/unmatched icons
 
