@@ -59,7 +59,7 @@ import IndicatorHelp from
 
 
 import IndicatorInfo from
-  './images/indicators/Info.svg'; 
+  './images/indicators/Info.svg';
 
 import IndicatorInspected from
   './images/indicators/Inspected.svg';
