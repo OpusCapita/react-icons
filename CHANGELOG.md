@@ -2,6 +2,9 @@
 
 * In general follow (https://docs.npmjs.com/getting-started/semantic-versioning) versioning.
 
+# 4.0.7
+* Add info indicator icon
+
 # 4.0.6
 * Update Critical icon
   

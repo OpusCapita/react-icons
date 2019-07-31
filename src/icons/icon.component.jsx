@@ -57,6 +57,10 @@ import IndicatorFolder from
 import IndicatorHelp from
   './images/indicators/Help.svg';
 
+
+import IndicatorInfo from
+  './images/indicators/Info.svg'; 
+
 import IndicatorInspected from
   './images/indicators/Inspected.svg';
 import IndicatorInspectedAndApproved from
@@ -197,6 +201,9 @@ const components = {
     folder: React.createFactory(IndicatorFolder),
 
     help: React.createFactory(IndicatorHelp),
+
+    info: React.createFactory(IndicatorInfo),
+
 
     inspected: React.createFactory(IndicatorInspected),
     inspectedAndApproved: React.createFactory(IndicatorInspectedAndApproved),

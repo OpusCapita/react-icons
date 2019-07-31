@@ -35,6 +35,8 @@ function IconsView() {
 
     'help',
 
+    'info',
+
     'inspected',
     'inspectedAndApproved',
 
