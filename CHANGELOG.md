@@ -2,6 +2,9 @@
 
 * In general follow (https://docs.npmjs.com/getting-started/semantic-versioning) versioning.
 
+# 4.0.10
+* Add CaretDoubleLeft and CaretDoubleRight icons
+
 # 4.0.9
 * Add info indicator icon
   
