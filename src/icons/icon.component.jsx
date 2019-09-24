@@ -20,6 +20,10 @@ import IndicatorCaretLeft from
   './images/indicators/CaretLeft.svg';
 import IndicatorCaretRight from
   './images/indicators/CaretRight.svg';
+import IndicatorCaretDoubleLeft from
+  './images/indicators/CaretDoubleLeft.svg';
+import IndicatorCaretDoubleRight from
+  './images/indicators/CaretDoubleRight.svg';
 import IndicatorClock from
   './images/indicators/Clock.svg';
 import IndicatorClose from
@@ -188,6 +192,8 @@ const components = {
     calendar: React.createFactory(IndicatorCalendar),
     CaretRight: React.createFactory(IndicatorCaretRight),
     CaretLeft: React.createFactory(IndicatorCaretLeft),
+    CaretDoubleRight: React.createFactory(IndicatorCaretDoubleRight),
+    CaretDoubleLeft: React.createFactory(IndicatorCaretDoubleLeft),
     clock: React.createFactory(IndicatorClock),
     close: React.createFactory(IndicatorClose),
     comment: React.createFactory(IndicatorComment),

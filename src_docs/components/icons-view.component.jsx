@@ -14,6 +14,8 @@ function IconsView() {
     'calendar',
     'CaretRight',
     'CaretLeft',
+    'CaretDoubleRight',
+    'CaretDoubleLeft',
     'clock',
     'close',
     'comment',
