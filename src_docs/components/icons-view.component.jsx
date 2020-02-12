@@ -23,6 +23,7 @@ function IconsView() {
     'critical',
 
     'delete',
+    'deleted',
     'draggingArrows',
 
     'edit',
@@ -41,6 +42,7 @@ function IconsView() {
 
     'inspected',
     'inspectedAndApproved',
+    'inspector',
 
     'logout',
 
