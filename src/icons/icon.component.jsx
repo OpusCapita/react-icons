@@ -37,6 +37,8 @@ import IndicatorCritical from
 
 import IndicatorDelete from
   './images/indicators/Delete.svg';
+import IndicatorDeleted from
+  './images/indicators/Deleted.svg';  
 import IndicatorDraggingArrows from
   './images/indicators/DraggingArrows.svg';
 
@@ -69,6 +71,8 @@ import IndicatorInspected from
   './images/indicators/Inspected.svg';
 import IndicatorInspectedAndApproved from
   './images/indicators/InspectedAndApproved.svg';
+import IndicatorInspector from
+  './images/indicators/Inspector.svg';
 
 import IndicatorLogout from
   './images/indicators/Logout.svg';
@@ -201,6 +205,7 @@ const components = {
     critical: React.createFactory(IndicatorCritical),
 
     delete: React.createFactory(IndicatorDelete),
+    deleted: React.createFactory(IndicatorDeleted),
     draggingArrows: React.createFactory(IndicatorDraggingArrows),
 
     edit: React.createFactory(IndicatorEdit),
@@ -217,9 +222,9 @@ const components = {
 
     info: React.createFactory(IndicatorInfo),
 
-
     inspected: React.createFactory(IndicatorInspected),
     inspectedAndApproved: React.createFactory(IndicatorInspectedAndApproved),
+    inspector: React.createFactory(IndicatorInspector),
 
     logout: React.createFactory(IndicatorLogout),
 

@@ -2,6 +2,10 @@
 
 * In general follow (https://docs.npmjs.com/getting-started/semantic-versioning) versioning.
 
+# 4.0.12
+* Add Inspector and Deleted icons
+* Update Plus icon
+
 # 4.0.11
 * Remove title element from Info, CaretDoubleLeft, and CaretDoubleRight
 
