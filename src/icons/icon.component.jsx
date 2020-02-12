@@ -38,7 +38,7 @@ import IndicatorCritical from
 import IndicatorDelete from
   './images/indicators/Delete.svg';
 import IndicatorDeleted from
-  './images/indicators/Deleted.svg';  
+  './images/indicators/Deleted.svg';
 import IndicatorDraggingArrows from
   './images/indicators/DraggingArrows.svg';
 
