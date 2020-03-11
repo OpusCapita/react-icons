@@ -2,6 +2,9 @@
 
 * In general follow (https://docs.npmjs.com/getting-started/semantic-versioning) versioning.
 
+# 4.0.13
+* Update Inspector icon
+
 # 4.0.12
 * Add Inspector and Deleted icons
 * Update Plus icon
