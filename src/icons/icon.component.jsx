@@ -137,6 +137,24 @@ import IndicatorWarning from
 import IndicatorExceedsLimit from
   './images/indicators/ExceedsLimit.svg';
 
+import Confirmed from
+  './images/indicators/Confirmed.svg';
+import ErrorSmall from
+  './images/indicators/ErrorSmall.svg';
+import NotStarted from
+  './images/indicators/NotStarted.svg';
+import Partially from
+  './images/indicators/Partially.svg';
+
+import Average from
+  './images/indicators/Average.svg';
+import Last from
+  './images/indicators/Last.svg';
+import Max from
+  './images/indicators/Max.svg';
+import Min from
+  './images/indicators/Min.svg';
+
 import ProductInvoices from
   './images/products/Invoices.svg';
 import ProductUser from
@@ -262,6 +280,16 @@ const components = {
     confirmedSub: React.createFactory(IndicatorConfirmedSub),
     partiallySub: React.createFactory(IndicatorPartiallySub),
     errorSub: React.createFactory(IndicatorErrorSub),
+
+    confirmed: React.createFactory(Confirmed),
+    errorSmall: React.createFactory(ErrorSmall),
+    notStarted: React.createFactory(NotStarted),
+    partially: React.createFactory(Partially),
+
+    average: React.createFactory(Average),
+    last: React.createFactory(Last),
+    max: React.createFactory(Max),
+    min: React.createFactory(Min),
   },
   product: {
     Invoices: React.createFactory(ProductInvoices),

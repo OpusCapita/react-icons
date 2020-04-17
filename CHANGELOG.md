@@ -2,6 +2,9 @@
 
 * In general follow (https://docs.npmjs.com/getting-started/semantic-versioning) versioning.
 
+# <next>
+* Added icons: Average, Confirmed, ErrorSmall, Last, Max, Min, NotStarted and Partially
+
 # 4.0.13
 * Update Inspector icon
 
