@@ -80,6 +80,16 @@ function IconsView() {
     'confirmedSub',
     'partiallySub',
     'errorSub',
+
+    'confirmed',
+    'errorSmall',
+    'notStarted',
+    'partially',
+
+    'average',
+    'last',
+    'max',
+    'min',
   ];
   const products = [
     'Invoices',
